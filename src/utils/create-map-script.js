@@ -10,7 +10,7 @@ export function createMapScript(options) {
     options.libraries = options.libraries.join(',')
   }
   options['callback'] = 'vueGoogleMapsInit'
-  let baseUrl = 'https://maps.googleapis.com/maps/api/js?'
+  let baseUrl = 'https://maps.googleapis.com/maps/api/js?loading=async&v=weekly&'
 
   let url =
     baseUrl +
